@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get jokes simply do:
+```ruby
+jokes = Igotjokes::Jokes.get # returns an array of joke(s)
+```
 
 ## Development
 
